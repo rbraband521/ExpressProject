@@ -1,0 +1,38 @@
+extends layout.pug
+
+block content 
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+    img.basket2(src='../static/images/basketlg.jpg')
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+        h1 Rachel Braband
+        p.lead.text-light
+          | Full Stack JavaScript Developer.
+        .portfolio-bio
+          p
+            | While I am new to the computer science field, my educational and career experience lends itself to adaptability and motivation. I am a classically trained musician with two post graduate degrees.
+            | I am constantly looking to explore new possibilities and opportunities which led me to coding. Currently, I am an aspiring fullstack developer enrolled in a Treehouse TechDegree. Please take a look at some
+            | of the projects I have already completed!
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Skills
+        ul
+          li Express
+          li HTML
+          li CSS
+          li JavaScript
+          li Node.js
+          li API
+        h6 Contact Info
+
+        ul
+          li 630-667-6219
+          li rebraband@gmail.com
+
+        a.button.expanded(href='https://www.linkedin.com/in/rachel-braband-94ba42185/', target = '_blank') LinkedIn
+        a.button.expanded(href='https://github.com/rbraband521', target = '_blank') GitHub
+        //- a.button.expanded(href='') Twitter (I don't have a Twitter account)
+  nav.grid-container.portfolio-breadcrumb
+    //- a(href='/') ← Back (I felt this was unecessary and redundant on the About page, but I added one at the bottom of the projects page)
+  

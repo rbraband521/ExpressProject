@@ -1,0 +1,77 @@
+{
+    "data": {
+        "title": "Fullstack JavaScript Developer Projects",
+        "projects": [
+            {
+                "id": "0",
+                "project_name": "Random Quote Generator",
+                "description": "Generate a random quote each time a user clicks a button",
+                "technologies": ["JavaScript", "CSS", "HTML"],
+                "live_link": "https://rbraband521.github.io/Randomquote/",
+                "github_link": "https://github.com/rbraband521/Randomquote",
+                "image_urls": [
+                    "./static/images/0/randomquotesq.png",
+                    "./static/images/0/1.png",
+                    "./static/images/0/2.png",
+                    "./static/images/0/3.png"
+                ]
+            },
+            {
+                "id": "1",
+                "project_name": "List Pagination and Filtering",
+                "description": "Divides a long list into a dynamic series of pages to improve the user experience of a web page",
+                "technologies": ["HTML", "CSS", "JavaScript"],
+                "live_link": "https://rbraband521.github.io/PaginationProject/Pagination",
+                "github_link": "https://github.com/rbraband521/PaginationProject",
+                "image_urls": [
+                    "./static/images/1/sq.png",
+                    "./static/images/1/1.png",
+                    "./static/images/1/2.png",
+                    "./static/images/1/3.png"
+                ]
+            },
+            {
+                "id": "2",
+                "project_name": "Interactive Form",
+                "description": "A dynamic interactive form that's easy to use",
+                "technologies": ["JavaScript", "HTML", "CSS"],
+                "live_link": "https://rbraband521.github.io/Interactive-Form/InteractiveForm/",
+                "github_link": "https://github.com/rbraband521/Interactive-Form",
+                "image_urls": [
+                    "./static/images/2/sq.png",
+                    "./static/images/2/1.png",
+                    "./static/images/2/2.png",
+                    "./static/images/2/3.png"
+                ]
+            },
+            {
+                "id": "3",
+                "project_name": "OOP Game Show App",
+                "description": "Browser-based, word guessing game",
+                "technologies": ["Javascript", "CSS", "HTML"],
+                "live_link": "https://rbraband521.github.io/OOP-Game-Show-App/oop_game-v2/",
+                "github_link": "https://github.com/rbraband521/OOP-Game-Show-App/tree/master/oop_game-v2",
+                "image_urls": [
+                    "./static/images/3/sq2.png",
+                    "./static/images/3/1.png",
+                    "./static/images/3/2.png",
+                    "./static/images/3/3.png"
+                ]
+            },
+            {
+                "id": "4",
+                "project_name": "Public API Requests",
+                "description": "Creates an employee directory via a third-party API",
+                "technologies": ["HTML", "JavaScript", "CSS", "Node.js"],
+                "live_link": "https://rbraband521.github.io/Public-Request-API/public_api_request-v1/",
+                "github_link": "https://github.com/rbraband521/Public-Request-API/tree/master/public_api_request-v1",
+                "image_urls": [
+                    "./static/images/4/sq.png",
+                    "./static/images/4/1.png",
+                    "./static/images/4/2.png",
+                    "./static/images/4/3.png"
+                ]
+            }
+        ]
+    }
+}
