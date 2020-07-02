@@ -3,6 +3,7 @@ extends layout.pug
 block content 
   nav.grid-container.portfolio-breadcrumb
     a(href='/') ← Back
+    //added a big logo on the main page
     img.basket2(src='../static/images/basketlg.jpg')
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
@@ -14,15 +15,16 @@ block content
 
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Technologies
-
+        //pulls the array of technologies for each project and displays accordingly
         ul  
           each technology in localProject.technologies 
             li= technology
-
+        //pulls the specific route for each projects Live Demo and Repo
         a.button.expanded(href=`${localProject.live_link}` target='_blank') Live Demo
         a.button.expanded(href=`${localProject.github_link}` target='_blank') GitHub Repo
-    
+    //pulls the specific images for each project to display
     img.image(src=`../${localProject.image_urls[1]}`)
     img.image(src=`../${localProject.image_urls[2]}`)
     img.image(src=`../${localProject.image_urls[3]}`)
+    //A back button here made sense since there was a lot of scrolling on these pages
     a(href='/') ← Back
