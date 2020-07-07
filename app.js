@@ -19,9 +19,13 @@ app.get('/about', (req, res) => {
 })
 //project page changes dynamically based on the id 
 app.get('/project/:id', (req, res, next) => {
-    const id = req.params.id;
+    const { id }= req.params;
     const localProject = data.projects[id];
-    res.render('project', { localProject });
+    if (localProject) {
+        res.render('project', {localProject});
+    } else {
+        next();
+    }
 });
 //Error handling - this is the 404 Not Found coe
 app.use((req, res, next) => {
